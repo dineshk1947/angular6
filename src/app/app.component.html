@@ -1,0 +1,29 @@
+
+<video autoplay muted loop class="embed-responsive-item">
+    <source src="assets/videos/wild.mp4" type="video/mp4">
+</video>
+<div style="display:block;"
+[style.width]="width" id="about">
+<slideshow #slideshow
+        [imageUrls]="imageUrls"
+        [height]="height"
+        [minHeight]="minHeight"
+        [arrowSize]="arrowSize"
+        [showArrows]="showArrows"
+        [disableSwiping]="disableSwiping"
+        [autoPlay]="autoPlay"
+        [stopAutoPlayOnSlide]="stopAutoPlayOnSlide"
+        [debug]="debug"
+        [backgroundSize]="backgroundSize"
+        [backgroundPosition]="backgroundPosition"
+        [backgroundRepeat]="backgroundRepeat"
+        [showDots]="showDots"
+        [dotColor]="dotColor"
+        [showCaptions]="showCaptions"
+        [captionColor]="captionColor"
+        [captionBackground]="captionBackground"
+        [lazyLoad]="lazyLoad">
+</slideshow>
+</div>
+
+
