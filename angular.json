@@ -30,7 +30,8 @@
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/popper.js/dist/umd/popper.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "./src/app/main.js"
+              "./src/app/main.js",
+              "/home/dineshkumar/dinesh/angular6/src/vendor/owl-carousel/owl.carousel.js"
              
             ]
           },

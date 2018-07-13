@@ -15,6 +15,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import {SlideshowModule} from 'ng-simple-slideshow';
+import { OwlModule } from 'ngx-owl-carousel';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import {SlideshowModule} from 'ng-simple-slideshow';
     TooltipModule,
     ModalModule,
     SlideshowModule,
+    OwlModule,
     //SidebarModule.forRoot(),
   
     // the root routing module must on the end of this array
