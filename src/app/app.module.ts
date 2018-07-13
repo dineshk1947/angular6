@@ -16,13 +16,17 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import {SlideshowModule} from 'ng-simple-slideshow';
 import { OwlModule } from 'ngx-owl-carousel';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NotFoundComponent,
-    DashBoardComponent
+    DashBoardComponent,
+    HeaderComponent,
+    FooterComponent
  
   ],
   imports: [
@@ -38,6 +42,8 @@ import { OwlModule } from 'ngx-owl-carousel';
     ModalModule,
     SlideshowModule,
     OwlModule,
+   // HeaderComponent,
+    //FooterComponent,
     //SidebarModule.forRoot(),
   
     // the root routing module must on the end of this array
